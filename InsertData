@@ -1,0 +1,103 @@
+-- Inserção para a tabela de regiões
+insert into VinhosCruz.Regiao values 
+	(51, 'Vale de Ica', 
+    'O Vale de Ica, no Peru, é uma região vinícola de destaque, conhecida por seu clima desértico e suas condições ideais para o cultivo de uvas.
+    Localizado no litoral sul do país, este vale é famoso por produzir vinhos de alta qualidade, aproveitando a combinação única de sol abundante, 
+    solo fértil e irrigação proveniente dos rios que descem dos Andes. As vinícolas da região, como a renomada Tacama, exploram uma variedade de castas, incluindo Malbec, Cabernet Sauvignon e Torontel,
+    para criar vinhos distintos e encorpados que refletem o caráter único do terroir do Vale de Ica.'),
+    
+    (33, 'Borgonha', 
+    'A região da Borgonha, na França, é reverenciada como uma das áreas vinícolas mais prestigiadas do mundo. 
+    Famosa por seus vinhos exclusivos e de alta qualidade, a Borgonha destaca-se pela ênfase nas variedades de uvas Pinot Noir e Chardonnay,
+    que prosperam em seu terroir único de solos calcários e argilosos. 
+    Os vinhedos da Borgonha são classificados em diferentes hierarquias, desde denominações regionais até Premier Cru e Grand Cru, 
+    representando os melhores vinhedos da região.'),
+    
+    (54, 'Mendoza', 
+    'Mendoza, a principal região vinícola da Argentina, é famosa por seus vinhos excepcionais, especialmente Malbecs encorpados e aromáticos.
+	 Localizada aos pés dos Andes, desfruta de um clima árido com dias quentes e noites frias, ideal para o cultivo de uvas de qualidade.
+	 Além do Malbec, cultivam-se variedades como Cabernet Sauvignon, Merlot e Chardonnay, em diferentes sub-regiões, como Valle de Uco e Luján de Cuyo. 
+	 A região também se destaca por suas práticas sustentáveis e inovadoras na produção vinícola, resultando em vinhos autênticos que refletem o caráter único de Mendoza.'),
+    
+    (61, 'Barossa Valley', 
+    'Barossa Valley, localizada na Austrália Meridional, é reconhecida mundialmente por seus vinhos robustos e cheios de sabor. 
+    Esta região vinícola é especialmente conhecida por seus Shiraz, que prosperam nas condições climáticas quentes e secas da área. Além do Shiraz,
+    a região também produz excelentes vinhos tintos, como Cabernet Sauvignon e Grenache, assim como vinhos brancos elegantes, como Riesling e Chardonnay.
+    Com uma herança vinícola que remonta a mais de um século, Barossa Valley é um destino imperdível para os amantes de vinho que buscam experiências autênticas e vinhos de alta 
+    qualidade.'),
+    
+    (56, 'Vale Central', 
+    'O Vale Central, no Chile, é uma importante região vinícola conhecida por sua produção diversificada e de alta qualidade. Com uma variedade de microclimas e solos, 
+	é ideal para uma ampla gama de uvas viníferas. Destacam-se os tintos encorpados, como Cabernet Sauvignon e Merlot, e os brancos frescos, como Sauvignon Blanc e Chardonnay. 
+	Sua reputação estabelecida e vinhos acessíveis continuam a atrair apreciadores de vinho em todo o mundo.');
+		
+-- Inserção para a tabela de Viniculas.
+insert into VinhosCruz.Vinicola values 
+	(15, 'Tienda Tacama', 
+    'A vinícola Tacama, localizada no Peru, é uma das mais renomadas da região. Fundada em 1540, é uma das vinícolas mais antigas das Américas e mantém uma tradição vinícola de séculos.
+    Situada no Vale de Ica, Tacama aproveita o clima desértico e a altitude para produzir uma ampla variedade de vinhos de alta qualidade.
+    Especializada em uvas como Malbec, Cabernet Sauvignon e Torontel, a Tacama é reconhecida por seus vinhos encorpados e elegantes, que refletem a rica herança vitivinícola do Peru.', 
+    '+51 94360775', 'tama@gmail.com', 51),
+    
+    (303, 'Domaine de la Romanée-Conti', 
+    'A vinícola Domaine de la Romanée-Conti, localizada na região da Borgonha, é uma das mais renomadas do mundo. 
+    Conhecida por seus vinhos excepcionais e produção limitada, esta vinícola familiar tem uma história rica que remonta a séculos. 
+    Seus vinhedos estão localizados em alguns dos terroirs mais prestigiados da Borgonha, incluindo a área de Vosne-Romanée, onde produzem vinhos icônicos como Romanée-Conti e La Tâche. 
+    A Domaine de la Romanée-Conti é aclamada por sua dedicação à qualidade, técnicas tradicionais de vinificação e ênfase na expressão autêntica do terroir borgonhês em seus vinhos de classe mundial.', 
+    '+33 3 80 62 48 80', 'domaine@hgmail.com', 33),
+    
+    (45, 'Bodega Catena Zapata', 
+    'Bodega Catena Zapata é uma das vinícolas mais proeminentes na região de Mendoza, Argentina. Fundada em 1902 por Nicola Catena, 
+    a vinícola é conhecida por sua dedicação à produção de vinhos de alta qualidade que refletem o terroir único de Mendoza. Com vinhedos localizados em altitudes variadas, 
+    desde o sopé da Cordilheira dos Andes até o vale, a Catena Zapata utiliza técnicas inovadoras de vinificação, como a plantação em diferentes altitudes para aproveitar ao máximo 
+    o clima e o solo diversificados da região. Seus vinhos são aclamados internacionalmente por sua complexidade, elegância e caráter distintivo, tornando a Bodega Catena Zapata uma referência 
+    na produção de vinhos de classe mundial.',
+    '+54 261 413-1124', 'dega@gmail.com', 54),
+    
+    (16, 'Penfolds', 
+    'A vinícola Penfolds é uma das mais prestigiadas e históricas da região de Barossa Valley, na Austrália. Fundada em 1844 por Christopher Rawson Penfold, 
+    a vinícola é conhecida por sua dedicação à produção de vinhos de alta qualidade, especialmente seus renomados vinhos tintos, como o icônico Penfolds Grange. 
+    Com vinhedos localizados em algumas das melhores áreas de cultivo da região, a Penfolds combina tradição e inovação para criar vinhos que refletem o terroir único de Barossa Valley. 
+    Seus vinhos são reconhecidos por sua riqueza, complexidade e longevidade, tornando a Penfolds uma referência na viticultura australiana e internacional.',
+    '+61 (08) 8736 2225', 'penf@gmail.com', 61),
+    
+    (65, 'Viña Concha y Toro', 
+	'A Viña Concha y Toro é uma prestigiada vinícola chilena, fundada em 1883 por Don Melchor Concha y Toro, localizada no Vale do Maipo, próximo a Santiago, no Chile. 
+    É uma das mais renomadas e tradicionais vinícolas do país, conhecida por sua qualidade e variedade de vinhos. Possui uma extensa linha de produtos, que inclui vinhos tintos, brancos e rosés, 
+    produzidos a partir de diversas uvas, destacando-se especialmente pelas variedades Cabernet Sauvignon, Carmenere e Sauvignon Blanc. A vinícola é reconhecida não apenas pela excelência de seus vinhos, 
+    mas também por sua história centenária e suas belas instalações, que recebem milhares de visitantes todos os anos em busca de experiências enoturísticas memoráveis.',
+    '+56 (03) 7866-6897', 'vina@gmail.com', 56);
+    
+-- Inserção para a tabela de vinhos.
+insert into VinhosCruz.Vinhos values
+	(1, 'Tacama Gran Tinto', 'Tinto', 2017, 
+	'Um vinho tinto de qualidade excepcional. Produzido pela Vinícola Tacama, uma das mais antigas e respeitadas do Peru, 
+    este vinho é uma expressão magnífica do terroir único do Vale de Ica. Composto principalmente de uvas tintas, como a Malbec e a Tannat, 
+    o Tacama Gran Tinto é envelhecido por longos períodos em barricas de carvalho, resultando em um vinho encorpado, com taninos macios e notas complexas de frutas maduras e especiarias. 
+    O ano pode variar dependendo da safra, mas geralmente é produzido em anos excepcionais para garantir a máxima qualidade. Este vinho representa o melhor do Vale de Ica, 
+    refletindo a tradição e a excelência da produção vinícola peruana.', 15),
+    
+    (2, 'Romanée-Conti Grand Cru', 'Tinto', 2020, 
+    'Este é um vinho tinto excepcional produzido na região da Borgonha, na França. Reconhecido como um dos melhores vinhos do mundo, 
+    o Romanée-Conti Grand Cru é elaborado exclusivamente a partir da variedade de uva Pinot Noir, colhida nas vinhas da propriedade. Cada safra é aguardada com grande expectativa pelos 
+    apreciadores de vinho, devido à sua qualidade e singularidade. Com uma produção limitada e uma reputação incomparável, o Romanée-Conti Grand Cru é um verdadeiro tesouro para os conhecedores de vinho, 
+    representando o ápice da excelência na vinicultura borgonhesa.', 303),
+    
+    (3, 'Catena Zapata Malbec Argentino', 'Tinto', 2017,
+    'Este é um vinho tinto argentino de alta qualidade, conhecido por sua expressão excepcional da variedade de uva Malbec. Produzido a partir de vinhas cuidadosamente selecionadas 
+    localizadas em altitudes elevadas na região de Mendoza, o Catena Zapata Malbec Argentino destaca-se por sua complexidade, estrutura e intensidade de sabores. Com aromas sedutores de frutas escuras, 
+    especiarias e notas terrosas, este vinho cativa os sentidos desde o primeiro gole. A safra de 2017, por exemplo, foi especialmente aclamada pela crítica, revelando taninos suaves, 
+    acidez equilibrada e um final longo e persistente. Este vinho representa o compromisso da Bodega Catena Zapata com a excelência e é um verdadeiro embaixador do Malbec argentino no mundo.', 45),
+    
+    (4, 'Penfolds Grange', 'Tinto', 2015, 
+	' Este vinho, muitas vezes referido como "Grange", é produzido principalmente a partir da variedade de uva Shiraz (Syrah) e, em algumas safras, pode conter uma pequena porcentagem de Cabernet
+    Sauvignon. O Grange é conhecido por sua estrutura imponente, complexidade e longevidade excepcional. Cada safra oferece uma expressão única do terroir e das condições climáticas do ano,
+    resultando em vinhos que variam em estilo, mas mantêm uma qualidade inabalável.', 16),
+    
+    (5, 'Casillero del Diablo', 'Tinto', 2015,
+    'Este vinho é predominantemente composto pela uva Cabernet Sauvignon, uma das variedades mais emblemáticas do Chile. A safra de destaque é o "Casillero del Diablo Reserva Privada Cabernet Sauvignon", 
+    proveniente de vinhedos selecionados e cuidadosamente cultivados na região do Vale Central do Chile.
+	Com um ano particularmente marcante, como por exemplo, o "Casillero del Diablo Reserva Privada Cabernet Sauvignon 2015", este vinho revela uma profunda intensidade de sabor, 
+    apresentando notas sedutoras de frutas escuras, como amora e cassis, combinadas com nuances de carvalho, tabaco e especiarias.
+	No paladar, ele cativa com uma estrutura elegante e taninos polidos, proporcionando uma experiência de degustação rica e satisfatória. Seu final é longo e persistente, 
+    deixando uma impressão duradoura de sofisticação e requinte.', 65)
