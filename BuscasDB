@@ -1,1 +1,5 @@
+SELECT V.nomeVinho, V.anoVinho, VC.nomeVinicola, R.nomeRegiao, R.descricaoRegiao
+FROM VinhosCruz.Vinhos AS V
+INNER JOIN VinhosCruz.Vinicola AS VC ON V.codVinicola = VC.codVinicola
+INNER JOIN VinhosCruz.Regiao AS R ON VC.codRegiao = R.codRegiao;
 
