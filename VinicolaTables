@@ -1,0 +1,28 @@
+-- Tabela para as regiões.
+create table VinhosCruz.Regiao (
+	codRegiao int primary key,
+	nomeRegiao varchar(100),
+    descricaoRegiao text
+);
+
+-- Tabela de viniculas.
+create table VinhosCruz.Vinicola (
+	codVinicola int primary key,
+    nomeVinicola varchar(100),
+    descricaoVinicola text,
+    foneVinicola varchar(30),
+	emailVinicola varchar(30),
+    codRegiao int,
+    foreign key (codRegiao) references Regiao(codRegiao)
+);
+
+-- Tabala para os vinhos.
+create table VinhosCruz.Vinhos (
+	codVinho int primary key,
+    nomeVinho varchar(50),
+	tipoVinho varchar(30),
+	anoVinho int,
+    descricaoVinho text,
+    codVinicola int,	
+    foreign key (codVinicola) references Vinicola(codVinicola) 
+);
